@@ -1,8 +1,8 @@
 {
-  "oraxenVersion": "1.204.0",
+  "oraxenVersion": "1.205.0",
   "minecraftVersion": "1.21.11",
   "serverVersion": "1.21.11-R0.1-SNAPSHOT",
-  "generatedAt": "2026-01-17T17:50:45.540798279Z",
+  "generatedAt": "2026-01-17T18:41:20.784316832Z",
   "enums": {
     "Material": {
       "values": [
