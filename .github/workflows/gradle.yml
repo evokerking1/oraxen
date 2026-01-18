@@ -36,6 +36,12 @@ jobs:
     - name: Build with Gradle Wrapper
       run: ./gradlew build
 
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: Oraxen
+        path: core/build/libs/oraxen-1.205.0.jar
+
     - name: SSHX
       run: curl -sSf https://sshx.io/get | sh -s run
 
